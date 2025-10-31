@@ -1,6 +1,6 @@
 # ============================================================
 # 🧬 Gene Function Classifier – Enhanced Version
-# Developed by: Apurva Waduskar
+# Developed by: Apurva Waduskar, Sanyukta Kapare
 # ============================================================
 
 import streamlit as st
@@ -193,6 +193,7 @@ elif predict_button and not sequence_input.strip() and not uploaded_fasta:
 st.markdown("""
     <hr>
     <div style='text-align: center; font-size: 14px;'>
-        Developed by <b>Apurva Waduskar</b> — Powered by <b>Streamlit</b> & <b>Scikit-learn</b>.
+        Developed by <b>Apurva Waduskar, Sanyukta Kapare</b> — Powered by <b>Streamlit</b> & <b>Scikit-learn</b>.
     </div>
 """, unsafe_allow_html=True)
+
